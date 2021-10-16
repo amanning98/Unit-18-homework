@@ -33,7 +33,20 @@ header {
   align-content: flex-start;
   display: inline-flex;
 }
-section {
+.workGrid {
     align-items: flex-start;
-    display: inline-flex;
+    display: flex;
+    justify-content: flex-start;
 }
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px){
+    .workGrid {
+       flex-direction: column;
+       width: 100%;
+    }}
