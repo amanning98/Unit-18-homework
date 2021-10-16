@@ -1,0 +1,39 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    padding: 1%;
+    text-align: center;
+}
+
+.navigation {
+    padding: 1%;
+    background-color: #373738;
+    min-width: 1200px;
+    margin-left: auto;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    min-width: 1040px; 
+}
+
+footer {
+    background-color: #373738;
+}
+li {
+    padding: 1%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+header {
+  align-content: flex-start;
+  display: inline-flex;
+}
+section {
+    align-items: flex-start;
+    display: inline-flex;
+}

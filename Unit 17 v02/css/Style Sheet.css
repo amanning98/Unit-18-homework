@@ -8,7 +8,7 @@
 .navigation {
     padding: 1%;
     background-color: #373738;
-    min-width: 1100px;
+    min-width: 1200px;
     margin-left: auto;
 
 }
@@ -40,4 +40,8 @@ li {
 header {
   align-content: flex-start;
   display: inline-flex;
+}
+section {
+    align-items: flex-start;
+    display: inline-flex;
 }
