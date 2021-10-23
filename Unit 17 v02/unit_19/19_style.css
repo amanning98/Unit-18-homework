@@ -1,0 +1,110 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    padding: 1%;
+    text-align: center;
+}
+
+.navigation {
+    padding: 1%;
+    background-color: #373738;
+    min-width: 1200px;
+    margin-left: auto;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    min-width: 1040px; 
+}
+
+footer {
+    background-color: #373738;
+}
+li {
+    padding: 1%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+header {
+  align-content: flex-start;
+  display: inline-flex;
+}
+.workGrid {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  padding: 10px;
+  height: 500px;
+}
+
+.aniamtion2{
+    position: relative;
+   height: 550px;
+}
+
+.aniamtion2 img {
+    position:absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 375px;
+}
+.aniamtion1{
+    position: relative;
+   height: 550px; 
+}
+
+.aniamtion1 img {
+    position:absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 375px;
+}
+.aniamtion3{
+    position: relative;
+   height: 550px;  
+}
+
+.aniamtion3 img {
+    position:absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 375px;
+}
+
+.imgSea {
+    width: 100%;
+        height: 400px;
+}
+
+.imgOregon {
+    width: 100%;
+        height: 400px;
+}
+.imgTravel {
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px){
+    .workGrid {
+       flex-direction: column;
+       width: 100%;
+    }}
+
+ 
